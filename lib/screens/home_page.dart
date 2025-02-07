@@ -44,11 +44,7 @@ class _HomePageState extends State<HomePage> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
-          image: DecorationImage(
-            image: AssetImage("assets/background.jpg"),
-            fit: BoxFit.cover,
-            opacity: 0.2,
-          ),
+    
         ),
         child: Center(
           child: Padding(
